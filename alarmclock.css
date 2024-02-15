@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .clock {
+    text-align: center;
+  }
+  
+  .time {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .alarm {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
