@@ -70,27 +70,30 @@ body {
   color: #555;
 }
 
-/* Responsive Design */
+/* Media Query for Responsive Design */
 @media screen and (max-width: 600px) {
   .clock {
-    max-width: 300px;
+    width: 80%;
   }
-  
+}
+
+@media screen and (max-width: 400px) {
   .time {
     font-size: 24px;
   }
-  
+
   .set-alarm-btn {
     font-size: 16px;
   }
-  
+
   .alarm-settings input {
     font-size: 16px;
     width: 60px;
   }
-  
+
   .alarm {
     font-size: 20px;
   }
 }
+
 
