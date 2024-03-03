@@ -1,11 +1,18 @@
 body {
   font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #2e3192, #1bffff);
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
-  background: linear-gradient(45deg, #2e3192, #1bffff);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .clock {
@@ -15,14 +22,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   max-width: 400px;
-  
-}
-
-.time-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+  width: 90%;
 }
 
 .time {
@@ -30,9 +30,23 @@ body {
   color: #333;
 }
 
+.input-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-group input {
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 70px;
+}
+
 .set-alarm-btn {
-  padding: 12px 24px;
-  font-size: 18px;
+  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer;
   background-color: #007bff;
   color: #fff;
@@ -45,30 +59,6 @@ body {
   background-color: #0056b3;
 }
 
-.alarm-settings {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.alarm-settings input {
-  padding: 10px;
-  font-size: 18px;
-  margin: 0 5px;
-  width: 80px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.alarm-settings input:focus {
-  outline: none;
-  border-color: #007bff;
-}
-
-.alarm {
-  font-size: 24px;
-  color: #555;
-}
 
 /* Media Query for Responsive Design */
 @media screen and (max-width: 600px) {
