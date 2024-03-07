@@ -4,7 +4,7 @@ let alarmTimeout;
 let audio;
 
 function playAlarm() {
-    audio = new Audio("https://freesound.org/data/previews/316/316847_4939433-lq.mp3");
+    audio = new Audio("https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3");
     audio.loop = true; // Loop the audio until stopped
     audio.play();
 }
